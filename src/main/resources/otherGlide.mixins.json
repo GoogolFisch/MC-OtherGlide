@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.googol.fisch.otherglide.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "entity.LivingEntityMixin"
+  ],
+  "client": [
+    "ClientTickMixin",
+    "InGameHudMixin",
+    "KeyBindMixin",
+    "entity.PlayerEntityClientMixin"
+  ],
+  "server": [
+    "BuiltinNoiseParametersMixin",
+    "entity.ServerPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

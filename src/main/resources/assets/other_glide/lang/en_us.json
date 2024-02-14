@@ -1,0 +1,11 @@
+{
+  "item.other_glide.climber": "Climber",
+  "item.other_glide.booster": "Booster",
+
+  "block.other_glide.tester_block": "tester",
+
+  "itemgroup.other_glide.glide": "Glider Item Group",
+
+  "command.invalid.glideGame": "Glide Err!",
+  "command.invalid.playerStuck": "Stuck Err!"
+}

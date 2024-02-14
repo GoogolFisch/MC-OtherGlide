@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "other_glide",
+  "version": "${version}",
+  "name": "OtherGlide",
+  "description": "Minecraft LCE Glide",
+  "authors": ["GoogolFisch"],
+  "contact": {
+    "repo": "https://github.com/Florian"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/other_glide/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.googol.fisch.otherglide.client.OtherGlideClient"
+    ],
+    "main": [
+      "me.googol.fisch.otherglide.OtherGlide"
+    ],
+    "server": [
+      "me.googol.fisch.otherglide.server.OtherGlideServer"
+    ]
+  },
+  "mixins": [
+    "otherGlide.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
